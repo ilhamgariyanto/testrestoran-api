@@ -1,20 +1,23 @@
-# restoran-api
- 
-Fitur Utama
-Post Order: Mengirimkan pesanan ke restoran dan menentukan printer yang sesuai untuk mencetak pesanan (kasir, dapur, atau bar).
-Get Bill: Mengambil rincian tagihan berdasarkan nomor meja, termasuk daftar item yang dipesan dan total biaya.
-Printer Allocation: Menyediakan informasi tentang printer mana yang harus mencetak item berdasarkan kategori (makanan atau minuman).
+restoran-api
+restoran-api adalah API yang dirancang untuk mengelola pesanan dan tagihan di restoran secara efisien. Dengan fitur utama untuk mengelola pesanan, menghitung tagihan, dan menentukan printer yang tepat untuk mencetak pesanan, API ini memastikan proses restoran berjalan lancar.
 
-Teknologi
-Node.js: Digunakan untuk membangun server API.
-Express.js: Framework web untuk Node.js.
-MySQL: Basis data untuk menyimpan informasi produk dan pesanan.
+🚀 Fitur Utama
+Post Order: Kirim pesanan baru ke restoran dan alokasikan printer yang sesuai untuk mencetak pesanan, baik untuk kasir, dapur, maupun bar.
+Get Bill: Ambil rincian tagihan berdasarkan nomor meja, termasuk daftar item yang dipesan dan total biaya.
+Printer Allocation: Informasikan printer mana yang harus mencetak item berdasarkan kategori (makanan atau minuman).
+
+🛠 Teknologi
+Node.js: Platform yang digunakan untuk membangun server API.
+Express.js: Framework web untuk Node.js, mempermudah pengembangan aplikasi web.
+MySQL: Sistem basis data untuk menyimpan informasi produk dan pesanan.
+📋 Instalasi
 
 Clone Repositori:
+git clone git@github.com:ilhamgariyanto/testrestoran-api.git
 
-Instal Dependensi:
-cd restoran-api #sesuaikan dengan direktori anda
+Instal Dependensi :
+cd restoran-api # Sesuaikan dengan direktori Anda
 npm install
 
 Jalankan Server :
-node app.js
+nodemon app.js
